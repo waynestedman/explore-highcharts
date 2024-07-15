@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import BasicChart from "./BasicChart";
 
 function App() {
 
   return (
     <>
-      <div>
+      <heading>
         <h1>React w/ Highcharts App</h1>
-      </div>
+      </heading>
+      <BasicChart />
     </>
   )
 }

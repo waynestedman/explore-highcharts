@@ -60,6 +60,7 @@
   }
   h1 {
     font: var(--w-type-heading1);
+    text-align: center;
   }
   h2 {
     font: var(--w-type-heading2);
