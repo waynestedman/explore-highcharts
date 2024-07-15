@@ -1,0 +1,84 @@
+:root {
+  /* variables/tokens */
+    --rhombus-color-blue: #007aff;
+    --w-color-white: #ffffff;
+    --w-color-gray100: #F7F7F7;
+    --w-color-gray200: #DFDFDF;
+    --w-color-gray300: #C6C6C6;
+    --w-color-gray400: #ADADAD;
+    --w-color-gray500: #949494;
+    --w-color-gray600: #7C7C7C;
+    --w-color-gray700: #636363;
+    --w-color-gray800: #4A4A4A;
+    --w-color-gray900: #313131;
+    --w-color-gray1000: #191919;
+    --w-color-black: #000000;
+    --w-color-emerald50: #DFF0EE;
+    --w-color-emerald100: #B0DBD5;
+    --w-color-emerald200: #7DC4BA;
+    --w-color-emerald300: #4AAC9E;
+    --w-color-emerald400: #259B8B;
+    --w-color-emerald500: #028A78;
+    --w-color-emerald600: #017D6C;
+    --w-color-emerald700: #016E5D;
+    --w-color-emerald800: #005E4F; 
+    --w-color-emerald900: #004334;
+    --w-color-brown50: #FAEBE5; 
+    --w-color-brown100: #F1CEBD; 
+    --w-color-brown200: #E49C7B;
+    --w-color-brown300: #D66B39;
+    --w-color-brown400: #9F4921;
+    --w-color-brown500: #5D2813; 
+    --w-color-brown600: #411E0D;
+    --w-color-brown700: #2F150A;
+    --w-color-brown800: #1C0D06;
+    --w-color-brown900: #090402;
+    --w-type-paragraph: 400 16px/1.5 Bitter;
+    --w-type-caption: 300 14px/1.5 Bitter;
+    --w-type-eyebrow: 400 14px/1.5 Raleway;
+    --w-type-heading1: 700 72px/1.5 Raleway;
+    --w-type-heading2: 700 54px/1.5 Raleway;
+    --w-type-heading3: 500 40px/1.25 Raleway;
+    --w-type-heading4: 500 30px/1.25 Raleway;
+    --w-type-heading5: 500 22px/1.5 Raleway;
+    --w-type-heading6: 500 16px/1.5 Raleway;
+  }
+  /* resets and defaults */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  *, :before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font: var(--w-type-paragraph);
+    color: var(--w-color-brown600);
+  }
+  h1 {
+    font: var(--w-type-heading1);
+  }
+  h2 {
+    font: var(--w-type-heading2);
+  }
+  h3 {
+    font: var(--w-type-heading3);
+  }
+  h4 {
+    font: var(--w-type-heading4);
+  }
+  h5 {
+    font: var(--w-type-heading5);
+  }
+  h6 {
+    font: var(--w-type-heading6);
+  }
+  caption {
+    font: var(--w-type-caption);
+  }
+  eyebrow {
+    font: var(--w-type-eyebrow);
+  }
